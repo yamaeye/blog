@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 迷锁魔方</title>
+    <link>https://yamaeye.pages.dev/blog/public/tags/</link>
+    <description>Recent content in Tags on 迷锁魔方</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Sophie Eden</copyright>
+    <lastBuildDate>Tue, 26 Apr 2022 18:55:20 +0800</lastBuildDate><atom:link href="https://yamaeye.pages.dev/blog/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习</title>
+      <link>https://yamaeye.pages.dev/blog/public/tags/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Tue, 26 Apr 2022 18:55:20 +0800</pubDate>
+      
+      <guid>https://yamaeye.pages.dev/blog/public/tags/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工作</title>
+      <link>https://yamaeye.pages.dev/blog/public/tags/%E5%B7%A5%E4%BD%9C/</link>
+      <pubDate>Sat, 16 Apr 2022 07:46:29 +0800</pubDate>
+      
+      <guid>https://yamaeye.pages.dev/blog/public/tags/%E5%B7%A5%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

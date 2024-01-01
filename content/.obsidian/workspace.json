@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "8aebb3f3e3274d3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "75ee810ec0af923b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c24cf1e8c1059ef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chat/不给糖就捣蛋.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ab324a20b173a0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b458678cd0a0b49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b578d0fc0abaf3c8",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "8f33d1fca8abd0f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d58d0252f60f4785",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "地理",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be48e2501b2ab75b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "433c4897c05e684d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249
+  },
+  "right": {
+    "id": "c8f141661a98624c",
+    "type": "split",
+    "children": [
+      {
+        "id": "22df7bc91c8ddb56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9da324cf818443a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chat/不给糖就捣蛋.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0599ba21dfeea364",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "chat/不给糖就捣蛋.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce3874aaec6a15b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c5c84bfd6245c756",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chat/不给糖就捣蛋.md"
+              }
+            }
+          },
+          {
+            "id": "722bf6973e4dfc4c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe516b9a73774396",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-spaced-repetition:复习卡片": false
+    }
+  },
+  "active": "8f33d1fca8abd0f2",
+  "lastOpenFiles": [
+    "chat/在学了在学了.md",
+    "chat/不给糖就捣蛋.md",
+    "chat/23.6.30.md",
+    "chat/22.4.17.md",
+    "thoughts/学习总结.md",
+    "模板.md",
+    "thoughts/我有独特的摸鱼技巧.md",
+    "diary/漫天阴雨，在每个人的命运中平等的落下.md",
+    "diary/睁眼睛睡觉.md",
+    "links/工具箱.md",
+    "story/23.6.20.md",
+    "thoughts/活着的意义是什么.md",
+    "读书/神秘/内在的天空.md",
+    "README.md",
+    "读书/神秘/README.md",
+    "读书/神秘/_sidebar.md",
+    "读书/语言/_sidebar.md",
+    "读书/学习/认知天性.md",
+    "读书/学习/刻意练习.md",
+    "读书/学习/为什么学生不喜欢上学.md",
+    "读书/神秘/秘密.md.crswap",
+    "themes/vue.css.crswap",
+    "手册/PC/软件/Excel.md",
+    "手册/开发/Github.md",
+    "手册/PC/Manjaro系统.md",
+    "引用/人物/文学/拉丁语.md",
+    "教程/语言/拉丁语.md",
+    "读书/语言/韦洛克拉丁语教程.md",
+    "img/pc/开启AUR源.png",
+    "img/pc/更换软件源.png"
+  ]
+}
