@@ -1,4 +1,4 @@
-baseURL = "https://yamaeye.github.io/blog/public/"
+baseURL = "https://yamaeye.github.io/blog/"
 title = "迷锁魔方"
 copyright = "Sophie Eden"
 # 默认每页列表显示的文章数目
@@ -74,7 +74,7 @@ weight = 10
 
 [[menu.main]]
 url = "/chat"
-name = "简讯"
+name = "碎碎念"
 weight = 20
 
 [[menu.main]]
