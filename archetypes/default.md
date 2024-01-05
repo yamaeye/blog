@@ -7,7 +7,7 @@ description : ""
 featured_image: ""
 images: []
 weight : 
-draft: true
+draft: false
 ---
 
 <!--more-->
