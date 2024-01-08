@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/我的眼睛需要休息.md",
+                "file": "diary/12.6.4.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/我的眼睛需要休息.md",
+                "file": "diary/12.6.4.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/我的眼睛需要休息.md",
+                "file": "diary/12.6.4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/我的眼睛需要休息.md"
+                "file": "diary/12.6.4.md"
               }
             }
           },
@@ -189,18 +189,19 @@
   },
   "active": "c24cf1e8c1059ef9",
   "lastOpenFiles": [
-    "diary/自相矛盾.md",
+    "chat/在学了在学了.md",
+    "chat/24.1.4.md",
+    "chat/皮二狗.md",
+    "chat/不给糖就捣蛋.md",
+    "chat/23.6.30.md",
+    "chat/今日份emo.md",
+    "diary/12.6.4.md",
     "diary/我的眼睛需要休息.md",
+    "diary/自相矛盾.md",
     "diary/睁眼睛睡觉.md",
     "thoughts/学习总结.md",
     "thoughts/我有独特的摸鱼技巧.md",
     "diary/漫天阴雨，在每个人的命运中平等的落下.md",
-    "chat/不给糖就捣蛋.md",
-    "chat/皮二狗.md",
-    "chat/在学了在学了.md",
-    "chat/24.1.4.md",
-    "chat/23.6.30.md",
-    "chat/今日份emo.md",
     "diary/今日份emo.md",
     "diary/不给糖就捣蛋.md",
     "diary/23.6.30.md",
@@ -214,7 +215,6 @@
     "读书/神秘/_sidebar.md",
     "读书/语言/_sidebar.md",
     "读书/学习/认知天性.md",
-    "读书/学习/刻意练习.md",
     "读书/神秘/秘密.md.crswap",
     "themes/vue.css.crswap",
     "img/pc/开启AUR源.png",
