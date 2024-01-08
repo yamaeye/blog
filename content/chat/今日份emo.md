@@ -1,5 +1,5 @@
 ---
-title: "22.4.17"
+title: "今日份emo"
 date: 2022-04-17T19:52:27+08:00
 categories : [丧]
 tags : []
