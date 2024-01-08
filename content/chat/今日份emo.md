@@ -2,7 +2,7 @@
 title: "今日份emo"
 date: 2022-04-17T19:52:27+08:00
 categories : [丧]
-tags : []
+tags : [工作]
 description : ""
 featured_image: ""
 images: []
