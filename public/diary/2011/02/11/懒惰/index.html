@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html><head>
+<title>懒惰</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta property="og:title" content="懒惰" />
+<meta property="og:description" content="膝盖泡醋泡出糖醋排骨味，臃肿不堪消了一半还剩一半硌得疼，整个假期出门不过五次，一次是过年去奶奶家，一次是初中聚会，一次是高中聚会，呐、没了" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yamaeye.github.io/blog/diary/2011/02/11/%E6%87%92%E6%83%B0/" /><meta property="article:section" content="diary" />
+<meta property="article:published_time" content="2011-02-11T20:31:22+08:00" />
+<meta property="article:modified_time" content="2011-02-11T20:31:22+08:00" /><meta property="og:site_name" content="迷锁魔方" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="懒惰"/>
+<meta name="twitter:description" content="膝盖泡醋泡出糖醋排骨味，臃肿不堪消了一半还剩一半硌得疼，整个假期出门不过五次，一次是过年去奶奶家，一次是初中聚会，一次是高中聚会，呐、没了"/>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<link rel="icon" href="https://yamaeye.github.io/blog/images/favicon.ico">
+
+
+
+      <script src="/blog/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/blog/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/blog/scss/dark-mode.min.9fa3ec684b0992e715a1a3883c8c813f3aaba4277ea9eac28c1e52cb9df441ac.css" integrity="sha256-n6PsaEsJkucVoaOIPIyBPzqrpCd&#43;qerCjB5Sy530Qaw=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/chat">
+                    碎碎念
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/blog/diary">
+                    随笔
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/thoughts">
+                    思考
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/categories">
+                    专栏
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/story">
+                    幻视
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="http://sophie-eden.ltd/">
+                    导航
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://yamaeye.github.io/blog/">
+            迷锁魔方
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://yamaeye.github.io/blog/">
+        <div class="single-column-header-title">迷锁魔方</div>
+        
+        <div class="single-column-header-subtitle">不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    懒惰
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2011-02-11 20:31
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/blog/categories/">[时光机]</a>
+                                &nbsp;
+                        
+
+                        
+                        
+                            <i class="material-icons" style="">schedule</i>
+                            
+
+                            
+                            
+
+                            
+                            2 min
+                            
+                            53 s.
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>膝盖泡醋泡出糖醋排骨味，臃肿不堪消了一半还剩一半硌得疼，整个假期出门不过五次，一次是过年去奶奶家，一次是初中聚会，一次是高中聚会，呐、没了</p>
+<p>希望一辈子衣食无忧，希望一辈子自由自在，有说愿望会引发特别的磁场，但多少人流浪街头无家可归就没好好祈祷过幸福吗？终究活着的还要继续，痛苦的还要忍受，开心的还要傻笑，想要的还要追求，规定的还要遵守，有钱的还要挥霍，讨厌的还要隐忍</p>
+<p>对越来越接近的开学心存畏惧，那个1116的危楼，挤满车的马路，耗命抢夺的午餐，惨不忍睹的同学，百无一用的课程，没有隐私的拥挤，末日即近的绝望，失却梦想的麻木，不得自由的控制，恶心反胃的品味，千篇一律的性格，精神分裂的压抑……</p>
+<p>毁了我吧，我们重头来过，毁了我，造成你想要的样子，那时一定乖乖听话；童年结束，不再期待，现在能得到什么，今后就能得到什么，不多，不少。</p>
+<p>如果我是机器人，效能还会更高一些，不要情感，没受教育就可以工作，更无欲求，不搞莫名其妙的无聊东西，不会传播负面情绪；谁也不想接触，谁也不想认识，什么也不想做，什么也做不了</p>
+<p>呐、不去上学了好不好、学完那些东西不也照样没用、考试、分数、什么东西！连把武器都造不出、朋友？我性格就这么孤僻古怪自私、永远学不会迎合哪个谁、早晚会腻</p>
+<p>为什么留我在这里、猪的肉还能喂饱肚子、我连肉都不是自己养肥的、长得还污染环境、每天浪费完资源又不知感激、为什么留我在这里……</p>
+<hr>
+<p>还没到一辈子，但目前比较衣食无忧，自由自在。</p>
+<p>我活不成听话的样子，压制我的一切终将衰弱。</p>
+<p>——2024.1.14</p>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2011-02-11</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/blog/diary/2011/05/22/%E5%92%86%E5%93%AE/">
+			下回<br>咆哮
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/blog/diary/2010/05/29/%E7%9D%81%E7%9C%BC%E7%9D%9B%E7%9D%A1%E8%A7%89/">
+			上回<br>睁眼睛睡觉
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://yamaeye.github.io/blog/">
+    
+        <div class="nav-title">
+            迷锁魔方
+        </div>
+        
+        <div class="nav-subtitle">
+            不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/chat">
+                碎碎念
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/blog/diary">
+                随笔
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/thoughts">
+                思考
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/categories">
+                专栏
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/story">
+                幻视
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="http://sophie-eden.ltd/">
+                导航
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Sophie Eden
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Sophie Eden
+	
+</div>
+            </div>
+    
+    <script src="/blog/js/journal.js"></script></body>
+</html>

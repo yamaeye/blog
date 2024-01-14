@@ -70,26 +70,31 @@ theme="github-light"
 [[menu.main]]
 url = "/chat"
 name = "碎碎念"
-weight = 20
+weight = 10
 
 [[menu.main]]
 url = "/diary"
 name = "随笔"
-weight = 30
+weight = 20
 
 [[menu.main]]
 url = "/thoughts"
 name = "思考"
-weight = 40
+weight = 30
 
 [[menu.main]]
 url = "/categories"
 name = "专栏"
-weight = 50
+weight = 40
 
 [[menu.main]]
 url = "/tags"
 name = "标签"
+weight = 50
+
+[[menu.main]]
+url = "/story"
+name = "幻视"
 weight = 60
 
 [[menu.main]]
