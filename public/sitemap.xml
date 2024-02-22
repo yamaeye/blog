@@ -17,20 +17,17 @@
     <loc>https://yamaeye.github.io/blog/</loc>
     <lastmod>2024-02-20T10:28:31+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/diary/2024/02/19/24.2.19/</loc>
-    <lastmod>2024-02-19T21:51:11+08:00</lastmod>
-  </url><url>
-    <loc>https://yamaeye.github.io/blog/diary/</loc>
+    <loc>https://yamaeye.github.io/blog/thoughts/24.2.19/</loc>
     <lastmod>2024-02-19T21:51:11+08:00</lastmod>
   </url><url>
     <loc>https://yamaeye.github.io/blog/tags/</loc>
     <lastmod>2024-02-19T21:51:11+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/tags/%E5%B7%A5%E4%BD%9C/</loc>
+    <loc>https://yamaeye.github.io/blog/thoughts/</loc>
     <lastmod>2024-02-19T21:51:11+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/thoughts/</loc>
-    <lastmod>2024-01-14T14:52:17+08:00</lastmod>
+    <loc>https://yamaeye.github.io/blog/tags/%E5%B7%A5%E4%BD%9C/</loc>
+    <lastmod>2024-02-19T21:51:11+08:00</lastmod>
   </url><url>
     <loc>https://yamaeye.github.io/blog/thoughts/%E5%A5%91%E7%BA%A6/</loc>
     <lastmod>2024-01-14T14:52:17+08:00</lastmod>
@@ -71,13 +68,16 @@
     <loc>https://yamaeye.github.io/blog/chat/%E4%BB%8A%E6%97%A5%E4%BB%BDemo/</loc>
     <lastmod>2022-04-17T19:52:27+08:00</lastmod>
   </url><url>
+    <loc>https://yamaeye.github.io/blog/diary/</loc>
+    <lastmod>2022-04-16T18:49:05+08:00</lastmod>
+  </url><url>
     <loc>https://yamaeye.github.io/blog/diary/2022/04/16/%E6%BC%AB%E5%A4%A9%E9%98%B4%E9%9B%A8%E5%9C%A8%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%91%BD%E8%BF%90%E4%B8%AD%E5%B9%B3%E7%AD%89%E7%9A%84%E8%90%BD%E4%B8%8B/</loc>
     <lastmod>2022-04-16T18:49:05+08:00</lastmod>
   </url><url>
     <loc>https://yamaeye.github.io/blog/thoughts/%E6%88%91%E6%9C%89%E7%8B%AC%E7%89%B9%E7%9A%84%E6%91%B8%E9%B1%BC%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-04-16T07:46:29+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/diary/2014/03/18/%E6%88%91%E6%84%9F%E5%86%92%E4%BA%86/</loc>
+    <loc>https://yamaeye.github.io/blog/thoughts/%E6%88%91%E6%84%9F%E5%86%92%E4%BA%86/</loc>
     <lastmod>2014-03-18T22:39:31+08:00</lastmod>
   </url><url>
     <loc>https://yamaeye.github.io/blog/categories/%E6%97%B6%E5%85%89%E6%9C%BA/</loc>
@@ -92,14 +92,14 @@
     <loc>https://yamaeye.github.io/blog/diary/2012/06/04/12.6.4/</loc>
     <lastmod>2012-06-04T03:09:28+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/diary/2012/05/23/12.5.23/</loc>
+    <loc>https://yamaeye.github.io/blog/story/12.5.23/</loc>
     <lastmod>2012-05-23T11:13:16+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/diary/2012/05/18/12.5.18/</loc>
-    <lastmod>2012-05-18T21:54:01+08:00</lastmod>
-  </url><url>
     <loc>https://yamaeye.github.io/blog/story/</loc>
-    <lastmod>2011-06-27T23:07:18+08:00</lastmod>
+    <lastmod>2012-05-23T11:13:16+08:00</lastmod>
+  </url><url>
+    <loc>https://yamaeye.github.io/blog/story/12.5.18/</loc>
+    <lastmod>2012-05-18T21:54:01+08:00</lastmod>
   </url><url>
     <loc>https://yamaeye.github.io/blog/story/%E9%98%BF%E7%BA%B3%E7%93%A6/</loc>
     <lastmod>2011-06-27T23:07:18+08:00</lastmod>
@@ -113,8 +113,20 @@
     <loc>https://yamaeye.github.io/blog/diary/2011/02/11/%E6%87%92%E6%83%B0/</loc>
     <lastmod>2011-02-11T20:31:22+08:00</lastmod>
   </url><url>
-    <loc>https://yamaeye.github.io/blog/diary/2011/01/24/%E6%88%91%E4%BB%AC%E8%BF%BD%E6%B1%82%E7%9C%9F%E5%96%84%E7%BE%8E/</loc>
+    <loc>https://yamaeye.github.io/blog/story/%E6%88%91%E4%BB%AC%E8%BF%BD%E6%B1%82%E7%9C%9F%E5%96%84%E7%BE%8E/</loc>
     <lastmod>2011-01-24T21:04:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yamaeye.github.io/blog/story/%E4%B8%8D%E8%AF%B4%E8%AF%9D/</loc>
+    <lastmod>2011-01-14T17:55:02+08:00</lastmod>
+  </url><url>
+    <loc>https://yamaeye.github.io/blog/diary/2010/09/30/%E5%91%8A%E8%AF%89%E5%91%8A%E8%AF%89%E6%88%91/</loc>
+    <lastmod>2010-09-30T16:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://yamaeye.github.io/blog/diary/2010/09/12/%E4%B8%8A%E4%BA%86%E5%A4%A7%E5%AD%A6%E7%9A%84%E8%B4%BC%E8%88%B9/</loc>
+    <lastmod>2010-09-12T14:32:49+08:00</lastmod>
+  </url><url>
+    <loc>https://yamaeye.github.io/blog/diary/2010/08/30/%E7%8B%BC%E5%B4%BD%E5%AD%90/</loc>
+    <lastmod>2010-08-30T10:31:34+08:00</lastmod>
   </url><url>
     <loc>https://yamaeye.github.io/blog/diary/2010/05/29/%E7%9D%81%E7%9C%BC%E7%9D%9B%E7%9D%A1%E8%A7%89/</loc>
     <lastmod>2010-05-29T21:42:31+08:00</lastmod>
