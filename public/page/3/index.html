@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html><head>
+	<meta name="generator" content="Hugo 0.111.3">
+<title>迷锁魔方</title>
+
+
+
+  
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta property="og:title" content="迷锁魔方" />
+<meta property="og:description" content="不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yamaeye.github.io/blog/" /><meta property="og:site_name" content="迷锁魔方" />
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="迷锁魔方"/>
+<meta name="twitter:description" content="不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫"/>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<link rel="icon" href="https://yamaeye.github.io/blog/images/favicon.ico">
+
+
+
+    <link type="text/css" rel="stylesheet" href="/blog/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/blog/scss/dark-mode.scss" integrity="" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/chat">
+                    碎碎念
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/diary">
+                    随笔
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/thoughts">
+                    思考
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/categories">
+                    专栏
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/story">
+                    幻视
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="http://sophie-eden.ltd/">
+                    导航
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/blog/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://yamaeye.github.io/blog/">
+            迷锁魔方
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://yamaeye.github.io/blog/">
+        <div class="single-column-header-title">迷锁魔方</div>
+        
+        <div class="single-column-header-subtitle">不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-no-background">
+        
+        
+            <a href="/blog/story/12.5.18/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                12.5.18
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>我是否盼望一种消失，生长同时衰老的身体可以感受欢乐也可以产生痛觉，自命在天堂或地狱然后又被现实的比较级击败<br>
+看不见的壁虎会发光吗？或许只希望我不是区区所示的这个人而已<br>
+可以被夺去，可以被丢弃，可以被取缔，一无所有时又拥有最多，我是为了什么做什么又想了些什么？</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2012-05-18
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    3 min
+    
+    7 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/story/%E9%98%BF%E7%BA%B3%E7%93%A6/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                阿纳瓦
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>清澈的河流，翠绿的树，飞翔的鸟，温度不热也不冷，好多开心的笑声，自由自在，从一个地方，到另一个地方</p>
+<p>深埋的种子在阳光下发芽，花与泥土的香味，温柔的歌谣，袅袅的焠烟，笨呆呆的小狗，泛黄的旧书，安静的原野</p>
+<p>质朴的语言，没有忧愁的明天，孩子的玩具，闪烁的星子，神灵的礼物，啊，你的名字，我的名字，她的名字，他的名字</p>
+<p>得到祝福的创作，永恒的爱，遗忘的眼泪，传颂的故事，不被质疑的梦想，平等的一体，圣洁的死亡，舒缓的时间，受尊重的生命……</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2011-06-27
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    57 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/diary/2011/06/01/%E5%85%AD%E4%B8%80%E5%90%96/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                六一吖
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    关于厌学这件小事
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2011-06-01
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    4 min
+    
+    25 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/diary/2011/05/22/%E5%92%86%E5%93%AE/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                咆哮
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    都会过去、很快就过去了……
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2011-05-22
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    1 min
+    
+    28 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/diary/2011/02/11/%E6%87%92%E6%83%B0/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                懒惰
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>膝盖泡醋泡出糖醋排骨味，臃肿不堪消了一半还剩一半硌得疼，整个假期出门不过五次，一次是过年去奶奶家，一次是初中聚会，一次是高中聚会，呐、没了</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2011-02-11
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    2 min
+    
+    53 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/story/%E6%88%91%E4%BB%AC%E8%BF%BD%E6%B1%82%E7%9C%9F%E5%96%84%E7%BE%8E/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                我们追求真善美
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    每个时代出生的人接受的初始环境不同，造就的人格不同，命运带来的革命道路不同，最终改造的新时代不同
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2011-01-24
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    3 min
+    
+    56 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/story/%E4%B8%8D%E8%AF%B4%E8%AF%9D/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                不说话
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>红色玫瑰</p>
+<p>蓝色血液</p>
+<p>黑色眼睛</p>
+<p>绿色宝石</p>
+<p>白色照片</p>
+<p>灰色遗骸</p>
+<p>金色蝴蝶</p>
+<p>粉色信纸</p>
+<p>棕色腕表</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2011-01-14
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    18 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/diary/2010/09/30/%E5%91%8A%E8%AF%89%E5%91%8A%E8%AF%89%E6%88%91/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                告诉。告诉我……
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>绮丽的梦想什么的、是很遥远的东西、幻想越多、失望越大、但还要在那里停留多久、真的可能走掉吗?</p>
+<p>这里什么都没有、我还是什么都得不到。原地、踏步。</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2010-09-30
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    2 min
+    
+    12 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/diary/2010/09/12/%E4%B8%8A%E4%BA%86%E5%A4%A7%E5%AD%A6%E7%9A%84%E8%B4%BC%E8%88%B9/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                上了大学的贼船……
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>冬日不暖、秋日无风、夏日就死、春日想你。</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2010-09-12
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    4 min
+    
+    12 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/blog/diary/2010/08/30/%E7%8B%BC%E5%B4%BD%E5%AD%90/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                狼崽子
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>篮球猛然砸过来，我闭上眼睛，身体僵硬不能动，这大概是一种很原始的反应，当危险来临，瞬间进入静止，选择装死，是不是就能逃过一命……我一动不动，球还是遵循牛顿定律砸过来了，“嗵！”一阵头晕目眩伴随剧痛。</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2010-08-30
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    
+
+    
+    
+
+    
+    3 min
+    
+    50 s
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+        </a>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head active" href="https://yamaeye.github.io/blog/">
+    
+        <div class="nav-title">
+            迷锁魔方
+        </div>
+        
+        <div class="nav-subtitle">
+            不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/chat">
+                碎碎念
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/diary">
+                随笔
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/thoughts">
+                思考
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/categories">
+                专栏
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/story">
+                幻视
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="http://sophie-eden.ltd/">
+                导航
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/blog/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Sophie Eden
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+        
+
+        <a class="pagination-action"  href="/blog/page/2/">
+            
+            <i class="material-icons pagination-action-icon">
+                chevron_left
+            </i>
+        </a>
+
+        <div class="pagination-indicator">
+            <span style="text-align: center">
+                3<br>
+                <div style="display: inline-block; transform: rotate(-28deg)">-</div><br>4
+            </span>
+        </div>
+
+
+        <a class="pagination-action"  href="/blog/page/4/">
+            
+            <i class="material-icons pagination-action-icon">
+                chevron_right
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+
+
+<div class="pagination">
+    
+    <a class="pagination-action" href="/blog/page/2/" style="opacity:1">
+    
+        <i class="material-icons pagination-action-icon">
+            chevron_left
+        </i>
+    </a>
+
+        <div class="pagination-indicator">
+            <span>3/4</span>
+        </div>
+
+        
+        <a class="pagination-action" href="/blog/page/4/"
+           style="opacity:1">
+        
+                <i class="material-icons pagination-action-icon">
+                    chevron_right
+                </i>
+            </a>
+</div>
+
+
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Sophie Eden
+	
+</div>
+            </div>
+    
+    <script src="/blog/js/journal.js"></script></body>
+</html>

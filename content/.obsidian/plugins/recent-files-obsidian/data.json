@@ -1,36 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "学习总结",
-      "path": "thoughts/学习总结.md"
+      "basename": "在学了在学了",
+      "path": "chat/在学了在学了.md"
     },
     {
-      "basename": "模板",
-      "path": "模板.md"
+      "basename": "皮二狗",
+      "path": "chat/皮二狗.md"
     },
     {
-      "basename": "我有独特的摸鱼技巧",
-      "path": "thoughts/我有独特的摸鱼技巧.md"
+      "basename": "今日份emo",
+      "path": "chat/今日份emo.md"
     },
     {
-      "basename": "生存还是毁灭",
-      "path": "thoughts/生存还是毁灭.md"
+      "basename": "不给糖就捣蛋",
+      "path": "chat/不给糖就捣蛋.md"
     },
     {
-      "basename": "我感冒了",
-      "path": "thoughts/我感冒了.md"
+      "basename": "24.4.10",
+      "path": "chat/24.4.10.md"
     },
     {
-      "basename": "模拟人生",
-      "path": "thoughts/模拟人生.md"
+      "basename": "24.2.20",
+      "path": "chat/24.2.20.md"
     },
     {
-      "basename": "契约",
-      "path": "thoughts/契约.md"
+      "basename": "24.1.4",
+      "path": "chat/24.1.4.md"
     },
     {
-      "basename": "24.2.19",
-      "path": "thoughts/24.2.19.md"
+      "basename": "23.6.30",
+      "path": "chat/23.6.30.md"
+    },
+    {
+      "basename": "六一吖",
+      "path": "diary/六一吖.md"
+    },
+    {
+      "basename": "我的眼睛需要休息",
+      "path": "diary/我的眼睛需要休息.md"
+    },
+    {
+      "basename": "咆哮",
+      "path": "diary/咆哮.md"
+    },
+    {
+      "basename": "上了大学的贼船……",
+      "path": "diary/上了大学的贼船…….md"
     },
     {
       "basename": "自相矛盾",
@@ -41,28 +57,16 @@
       "path": "diary/睁眼睛睡觉.md"
     },
     {
-      "basename": "狼崽子",
-      "path": "diary/狼崽子.md"
+      "basename": "无话可说",
+      "path": "diary/无话可说.md"
     },
     {
       "basename": "漫天阴雨，在每个人的命运中平等的落下",
       "path": "diary/漫天阴雨，在每个人的命运中平等的落下.md"
     },
     {
-      "basename": "我的眼睛需要休息",
-      "path": "diary/我的眼睛需要休息.md"
-    },
-    {
-      "basename": "12.6.4",
-      "path": "diary/12.6.4.md"
-    },
-    {
-      "basename": "六一吖",
-      "path": "diary/六一吖.md"
-    },
-    {
-      "basename": "咆哮",
-      "path": "diary/咆哮.md"
+      "basename": "狼崽子",
+      "path": "diary/狼崽子.md"
     },
     {
       "basename": "懒惰",
@@ -73,12 +77,16 @@
       "path": "diary/告诉。告诉我…….md"
     },
     {
-      "basename": "上了大学的贼船……",
-      "path": "diary/上了大学的贼船…….md"
+      "basename": "12.6.4",
+      "path": "diary/12.6.4.md"
     },
     {
       "basename": "我们追求真善美",
       "path": "story/我们追求真善美.md"
+    },
+    {
+      "basename": "不说话",
+      "path": "story/不说话.md"
     },
     {
       "basename": "阿纳瓦",
@@ -93,36 +101,36 @@
       "path": "story/12.5.18.md"
     },
     {
-      "basename": "不说话",
-      "path": "story/不说话.md"
+      "basename": "学习总结",
+      "path": "thoughts/学习总结.md"
     },
     {
-      "basename": "24.2.20",
-      "path": "chat/24.2.20.md"
+      "basename": "我有独特的摸鱼技巧",
+      "path": "thoughts/我有独特的摸鱼技巧.md"
     },
     {
-      "basename": "24.1.4",
-      "path": "chat/24.1.4.md"
+      "basename": "我感冒了",
+      "path": "thoughts/我感冒了.md"
     },
     {
-      "basename": "今日份emo",
-      "path": "chat/今日份emo.md"
+      "basename": "生存还是毁灭",
+      "path": "thoughts/生存还是毁灭.md"
     },
     {
-      "basename": "皮二狗",
-      "path": "chat/皮二狗.md"
+      "basename": "契约",
+      "path": "thoughts/契约.md"
     },
     {
-      "basename": "在学了在学了",
-      "path": "chat/在学了在学了.md"
+      "basename": "模拟人生",
+      "path": "thoughts/模拟人生.md"
     },
     {
-      "basename": "不给糖就捣蛋",
-      "path": "chat/不给糖就捣蛋.md"
+      "basename": "24.2.19",
+      "path": "thoughts/24.2.19.md"
     },
     {
-      "basename": "23.6.30",
-      "path": "chat/23.6.30.md"
+      "basename": "模板",
+      "path": "模板.md"
     },
     {
       "basename": "工具箱",
@@ -191,14 +199,6 @@
     {
       "basename": "Linux系统",
       "path": "手册/PC/Linux系统.md"
-    },
-    {
-      "basename": "浏览器",
-      "path": "手册/PC/浏览器.md"
-    },
-    {
-      "basename": "_sidebar",
-      "path": "手册/PC/_sidebar.md"
     }
   ],
   "omittedPaths": [],

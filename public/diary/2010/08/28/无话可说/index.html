@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html><head>
+<title>无话可说</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta property="og:url" content="http://blog.sophie-eden.ltd/diary/2010/08/28/%E6%97%A0%E8%AF%9D%E5%8F%AF%E8%AF%B4/">
+  <meta property="og:site_name" content="迷锁魔方">
+  <meta property="og:title" content="无话可说">
+  <meta property="og:description" content="我什么也不想写、字句单调、记忆空洞、心脏冰冷。
+感情什么的、已经被抛弃了、想捡回来、也不过是重新开始、下一段毁灭。
+我对你们所有、失去希望、不抱希望、这、就是答案。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="diary">
+    <meta property="article:published_time" content="2010-08-28T22:44:36+08:00">
+    <meta property="article:modified_time" content="2010-08-28T22:44:36+08:00">
+
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="无话可说">
+  <meta name="twitter:description" content="我什么也不想写、字句单调、记忆空洞、心脏冰冷。
+感情什么的、已经被抛弃了、想捡回来、也不过是重新开始、下一段毁灭。
+我对你们所有、失去希望、不抱希望、这、就是答案。">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<link rel="icon" href="http://blog.sophie-eden.ltd/images/favicon.ico">
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.9fa3ec684b0992e715a1a3883c8c813f3aaba4277ea9eac28c1e52cb9df441ac.css" integrity="sha256-n6PsaEsJkucVoaOIPIyBPzqrpCd&#43;qerCjB5Sy530Qaw=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/chat">
+                    碎碎念
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/diary">
+                    随笔
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/thoughts">
+                    思考
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    专栏
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/story">
+                    幻视
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="http://sophie-eden.ltd/">
+                    导航
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://blog.sophie-eden.ltd/">
+            迷锁魔方
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://blog.sophie-eden.ltd/">
+        <div class="single-column-header-title">迷锁魔方</div>
+        
+        <div class="single-column-header-subtitle">不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    无话可说
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2010-08-28 22:44
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                            <i class="material-icons" style="">schedule</i>
+                            
+
+                            
+                            
+
+                            
+                            3 min
+                            
+                            7 s.
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>我什么也不想写、字句单调、记忆空洞、心脏冰冷。</p>
+<p>感情什么的、已经被抛弃了、想捡回来、也不过是重新开始、下一段毁灭。</p>
+<p>我对你们所有、失去希望、不抱希望、这、就是答案。</p>
+<p>过些天就要去下一个城市、阿珊在走之前曾说过希望那是一个完全和过去无关的起点、没有人曾经知道你、在他们眼中、只有一个全新的你、想要改变、就从这时开始。</p>
+<p>我什么也不想变、头发可以换个颜色、衣服可以换个样式、肤色可以晒黑、体重可以加重、但不是什么都那么容易改变、有些东西、会伴着你一辈子、虽然你厌恶它们如厌恶背后缚灵、它们是你的、丢也丢不掉、换也换不了。</p>
+<p>开始不安的时候哭了、但真正失望的时候却哭不出来，我只想笑，只想笑，之前的你怎么那么傻、早失望不就好了吗？或许一开始失望的就不止你一个人、他们从很早的时候就不抱希望了、所以可以轻轻松松地伤害别人、没有负担、很冷静的、把刀子捅进心里、转一转、搅一搅、像个游戏。</p>
+<p>都和我无关了、实在做不到时时心里惦记了、我心里只有我自己一个人、高兴是你们的、伤心是你们的、甜蜜是你们的、烦恼是你们的、不是老子的。不刻意去想、甚至会把你们的样子忘记、甚至会把曾经的对话忘记、这还真是神奇。</p>
+<p>不过大脑轻松很多啊、想做什么就痛快去做、为了达到自己的目的专心努力、不开心了就自己想办法解决、不敢做的事情就自己逼自己走出第一步、不需要强迫自己违背本意、会变得越来越坚强、越来越像自己、越来越惹你们讨厌也不会活不下去、身心、自由！</p>
+<p>我谁也不会爱、我永远给不了喜欢谁的承诺、我只要更加爱自己就好、至于你们爱怎样怎样、人这种动物也就那几种需求、吃饭、睡觉、学习、娱乐、金钱、权力、虚荣……我一个人比你们好伺候多了。</p>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2010-08-28</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/diary/2010/08/30/%E7%8B%BC%E5%B4%BD%E5%AD%90/">
+			下回<br>狼崽子
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/diary/2010/05/29/%E7%9D%81%E7%9C%BC%E7%9D%9B%E7%9D%A1%E8%A7%89/">
+			上回<br>睁眼睛睡觉
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://blog.sophie-eden.ltd/">
+    
+        <div class="nav-title">
+            迷锁魔方
+        </div>
+        
+        <div class="nav-subtitle">
+            不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/chat">
+                碎碎念
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/diary">
+                随笔
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/thoughts">
+                思考
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                专栏
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/story">
+                幻视
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="http://sophie-eden.ltd/">
+                导航
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Sophie Eden
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Sophie Eden
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
