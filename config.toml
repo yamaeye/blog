@@ -1,4 +1,4 @@
-baseURL = "http://blog.sophie-eden.ltd/"
+baseURL = "https://blog.sophie-eden.ltd/"
 title = "迷锁魔方"
 copyright = "Sophie Eden"
 # 默认每页列表显示的文章数目
