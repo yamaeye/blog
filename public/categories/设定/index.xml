@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>设定 on 迷锁魔方</title>
+		<link>http://localhost:1313/categories/%E8%AE%BE%E5%AE%9A/</link>
+		<description>Recent content in 设定 on 迷锁魔方</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+			<copyright>Sophie Eden</copyright>
+		
+		
+			<lastBuildDate>Wed, 03 Jun 2026 20:59:42 +0800</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/%E8%AE%BE%E5%AE%9A/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>心之眼</title>
+				<link>http://localhost:1313/story/%E5%BF%83%E4%B9%8B%E7%9C%BC/</link>
+				<pubDate>Wed, 03 Jun 2026 20:59:42 +0800</pubDate>
+				<guid>http://localhost:1313/story/%E5%BF%83%E4%B9%8B%E7%9C%BC/</guid>
+				<description>&lt;p&gt;柯灵从小喜欢读各种故事书，因为那些文字所描述的场景，会在脑海中形成栩栩如真的幻境，就像沉浸式的异世界之旅。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -102,7 +102,7 @@ url = "http://sophie-eden.ltd/"
 name = "导航"
 weight = 100
 
-[[menu.main]]
-url = "/index.xml"
-name = "RSS"
-weight = 200
+  # [[menu.main]]
+  # url = "/index.xml"
+  # name = "RSS"
+  # weight = 200
